@@ -352,24 +352,52 @@ a{
         width: auto;
     }
     
+    .zapicon:hover{
+        height: 55px;
+        width: auto;
+        filter: brightness(120%);
+    }
+
     .mailicon{
         height: 50px;
         width: auto;
+    }
+    .mailicon:hover{
+        height: 55px;
+        width: auto;
+        filter: brightness(120%);
     }
     
     .instaicon{
         height: 45px;
         width: auto;
     }
+    .instaicon:hover{
+        height: 50px;
+        width: auto;
+        filter: brightness(120%);
+    }
     
     .phoneicon{
         height: 50px;
         width: auto;
     }
+    .phoneicon:hover{
+        height: 55px;
+        width: auto;
+        filter: brightness(120%);
+    }
+
+
     
     .inicon{
         height: 55px;
         width: auto;
+    }
+    .inicon:hover{
+        height: 60px;
+        width: auto;
+        filter: brightness(120%);
     }
 
     .icons{
