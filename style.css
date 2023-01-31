@@ -98,6 +98,10 @@ a{
     font-size: 30px;
 }
 
+.section2{
+    text-align: justify;
+}
+
 .main-heading{
     display: flex;
     flex-direction: column;
@@ -333,9 +337,9 @@ a{
         flex-direction: column;
         margin: 0 auto;
     }
-    
-    .section2, .section2, .section3, .section4, .section5{
-        justify-content: center;
+
+    .section2{
+        text-align: justify;
     }
 
     .scrolldown{
