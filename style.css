@@ -113,7 +113,7 @@ a{
 }
 
 .img1{
-    height: 800px;
+    height: 100vh;
     max-height: 80vh;
     width: auto;
     -webkit-filter: drop-shadow(5px 10px 20px #222);
@@ -186,37 +186,80 @@ a{
 
 .icons{
     display: flex;
+    flex-direction: row;
     align-items: center;
     width: 70%;
     justify-content: space-around;
     margin: 0 auto;
     -webkit-filter: drop-shadow(5px 10px 20px #222);
     filter: drop-shadow(5px 15px 10px #222);
+    height: 300px;
 }
 
 .zapicon{
-    height: 200px;
+    height: 14vw;
     width: auto;
+    transition: 0.3s;
+}
+
+.zapicon:hover{
+    height: 16vw;
+    width: auto;
+    filter: brightness(120%);
+    transition: 0.3s;
 }
 
 .mailicon{
-    height: 200px;
+    height: 13vw;
     width: auto;
+    transition: 0.3s;
+}
+
+.mailicon:hover{
+    height: 15vw;
+    width: auto;
+    filter: brightness(120%);
+    transition: 0.3s;
 }
 
 .instaicon{
-    height: 180px;
+    height: 13vw;
     width: auto;
+    transition: 0.3s;
+}
+
+.instaicon:hover{
+    height: 15vw;
+    width: auto;
+    filter: brightness(120%);
+    transition: 0.3s;
 }
 
 .phoneicon{
-    height: 200px;
+    height: 13vw;
     width: auto;
+    transition: 0.3s;
+}
+
+.phoneicon:hover{
+    height: 15vw;
+    width: auto;
+    filter: brightness(120%);
+    transition: 0.3s;
 }
 
 .inicon{
-    height: 220px;
+    height: 13vw;
     width: auto;
+    transition: 0.3s;
+
+}
+
+.inicon:hover{
+    height: 15vw;
+    width: auto;
+    filter: brightness(120%);
+    transition: 0.3s;
 }
 
 @media(max-width: 1230px){
@@ -224,6 +267,7 @@ a{
     .hamburguer{
         display: block;
         z-index: 999;
+        cursor: pointer;
     }
 
     .header-menu{
@@ -274,14 +318,14 @@ a{
     }
     
     .img1{
-        height: 400px;
+        height: 65vh;
         width: auto;
-        max-height: 40%;
         -webkit-filter: drop-shadow(5px 10px 20px #222);
         filter: drop-shadow(5px 15px 10px #222);
         z-index: 0;
         position:initial;
         order: 1;
+        margin-top: 5%;
     }
 
     .home{
@@ -305,7 +349,7 @@ a{
         border-radius: 7px;
         box-sizing: border-box;
         margin-bottom: 16px;
-        cursor: pointer;    
+        cursor: default;
     }
 
     .scrolldown::before{
@@ -347,62 +391,4 @@ a{
         }
     }
 
-    .zapicon{
-        height: 50px;
-        width: auto;
-    }
-    
-    .zapicon:hover{
-        height: 55px;
-        width: auto;
-        filter: brightness(120%);
-    }
-
-    .mailicon{
-        height: 50px;
-        width: auto;
-    }
-    .mailicon:hover{
-        height: 55px;
-        width: auto;
-        filter: brightness(120%);
-    }
-    
-    .instaicon{
-        height: 45px;
-        width: auto;
-    }
-    .instaicon:hover{
-        height: 50px;
-        width: auto;
-        filter: brightness(120%);
-    }
-    
-    .phoneicon{
-        height: 50px;
-        width: auto;
-    }
-    .phoneicon:hover{
-        height: 55px;
-        width: auto;
-        filter: brightness(120%);
-    }
-
-
-    
-    .inicon{
-        height: 55px;
-        width: auto;
-    }
-    .inicon:hover{
-        height: 60px;
-        width: auto;
-        filter: brightness(120%);
-    }
-
-    .icons{
-        -webkit-filter: drop-shadow(5px 10px 20px #222);
-        filter: drop-shadow(5px 15px 10px #222);
-    }
-    
 }
