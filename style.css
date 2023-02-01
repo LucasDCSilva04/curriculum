@@ -284,6 +284,25 @@ a{
     transition: 0.3s;
 }
 
+.thanks{
+    display: flex;
+    flex-direction: column;
+}
+
+.thanks:hover{
+    color: white;
+    cursor: default;
+    font-size: 150%;
+}
+
+.thanks p{
+    font-size: default;
+}
+
+.thanks .man{
+    height: 0;
+}
+
 @media(max-width: 1230px){
 
     .hamburguer{
