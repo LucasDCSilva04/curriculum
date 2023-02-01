@@ -411,5 +411,15 @@ a{
             height: 3px;
         }
     }
+.thanks{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+    .man{
+        height: auto;
+        width: 40VW;
+        }
 
 }
