@@ -104,6 +104,7 @@ a{
     background-color: rgb(92, 110, 131);
     font-size: 30px;
 }
+
 .section1{
     width: 100%;
     max-width: 100%;
@@ -148,7 +149,7 @@ a{
 .scrolldown{
     position: absolute;
     top: 90%;
-    left: 50%;
+    left: 46.5vw;
     width: 30px;
     height: 50px;
     margin-left: 30px / 2;
@@ -156,7 +157,7 @@ a{
     border-radius: 50px;
     box-sizing: border-box;
     margin-bottom: 16px;
-    cursor: pointer;    
+    cursor: default;    
 }
 
 .scrolldown::before{
@@ -360,9 +361,6 @@ a{
     }
 
     .scrolldown{
-        position: absolute;
-        top: 90%;
-        margin: 0 auto;
         width: 30px;
         height: 50px;
         margin-left: 30px / 2;
@@ -411,15 +409,15 @@ a{
             height: 3px;
         }
     }
-.thanks{
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-}
+
+    .thanks{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
 
     .man{
         height: auto;
         width: 40VW;
         }
-
 }
