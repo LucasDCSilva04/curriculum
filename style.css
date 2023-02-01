@@ -53,6 +53,9 @@ a{
 .navlink{
     height: 50px;
     margin: 0 1rem;
+    border-radius: 100%;
+    -webkit-filter: drop-shadow(5px 10px 20px #222);
+    filter: drop-shadow(5px 15px 10px #222);
 }
 
 .header-menu{
@@ -277,7 +280,7 @@ a{
     .header-menu{
         position: fixed;
         top: 0%;
-        right: -100%;
+        right: 0%;
 
         height: 100vh;
         margin: 0;
@@ -294,7 +297,7 @@ a{
     }
 
     .header-menu.active{
-        right: 0%;
+        right: -100%;
     } 
 
     .section1{
