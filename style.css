@@ -207,6 +207,14 @@ a{
     align-items: center;
 }
 
+.text3b{
+    margin-top: 5vh;
+}
+
+.text4b{
+    margin-top: 5vh;
+}
+
 .icons{
     display: flex;
     flex-direction: row;
