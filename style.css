@@ -126,6 +126,7 @@ a{
     align-items: left;
     z-index: 2;
     font-size: 30px;
+    margin-top: 5vh;
 }
 
 .heading1{
@@ -284,25 +285,6 @@ a{
     transition: 0.3s;
 }
 
-.thanks{
-    display: flex;
-    flex-direction: column;
-}
-
-.thanks:hover{
-    color: white;
-    cursor: default;
-    font-size: 150%;
-}
-
-.thanks p{
-    font-size: default;
-}
-
-.thanks .man{
-    height: 0;
-}
-
 @media(max-width: 1230px){
 
     .hamburguer{
@@ -349,6 +331,7 @@ a{
         align-items: center;
         z-index: 2;
         font-size: 15px;
+        margin-top: auto;
     }
     
     .heading1{
@@ -428,15 +411,4 @@ a{
             height: 3px;
         }
     }
-
-    .thanks{
-        display: flex;
-        align-items: center;
-        margin: 0 auto;
-    }
-
-    .man{
-        height: auto;
-        width: 40VW;
-        }
 }
