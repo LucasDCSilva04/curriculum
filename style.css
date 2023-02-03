@@ -299,6 +299,7 @@
             transition: 0.3s;
         }
 
+
     @media(max-width: 1230px){
 
     .hamburguer{
@@ -425,4 +426,4 @@
             height: 3px;
         }
     }
-}
+    }
